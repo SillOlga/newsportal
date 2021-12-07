@@ -47,10 +47,10 @@
   
         <div id="content" style="padding-top:20px; ">
         
-            <?php echo$content; ?>
+            <?php echo $content; ?>
     </div>
     <footer class="footer">
-        <p>&copy; 2021 Design Admin dashboard<i class="fa fa-child"></i></p>
+        <p>&copy; 2021 Design <i class="fa fa-child"></i></p>
     </footer>
     </div> <!-- /container -->
 </body>

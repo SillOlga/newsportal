@@ -7,3 +7,5 @@ session_start();
     include('routeAdmin/routingAdmin.php');//!!!!
 
     echo $response;
+
+    
