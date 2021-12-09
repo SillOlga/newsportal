@@ -1,17 +1,12 @@
-/* =============================================================================== */
 body {
-  margin:0;
-  font-family: Arial; 
-  }
+	margin:0;
+	font-family: Arial;	
+	}
 h2 {
   font-family: monospace;
   color: #606060;
   
 }
-
-/* HEADER =================================================================== */
-
-/* NAVMENU =================================================== */
 nav {
   width: 100%;
   margin: auto;
@@ -26,24 +21,21 @@ ul {
   display: inline-block;
   margin-right: auto;
   position: relative;
-  width: 10%;
+  width: 10%;	
   padding: auto;
   text-align: center;
 }
 .topmenu > li:last-child {
   margin-right: 0;
 }
-
 .divBox{
-  width: 85%;
-  margin-left: 20px;
+	width: 85%;
+    margin-left: 20px;
 }
-
 .pull-right{
-  padding:20px;
-  float: right;
+	padding:20px;
+	float: right;
 }
-
 a {
   display: block;
   padding: 10px 15px;
@@ -89,9 +81,9 @@ a {
   display: block;
 }
 .logo{
-  width: auto;
-  color: white;
-  font-size: 1.2em;
+	width: auto;
+	color: white;
+	font-size: 1.2em;
         margin-left: 15%;
 }
 
@@ -130,7 +122,7 @@ table{
     display: flex;
     width: auto;
     padding: 0;
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 td{
@@ -164,7 +156,7 @@ th{
 p{
     word-wrap: break-word;
     display: flex;
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 h1{

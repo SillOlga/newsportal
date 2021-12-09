@@ -34,7 +34,7 @@ class Controller {
         public static function InsertComment($c, $id) {
         Comments::InsertComment($c, $id);
         //self::NewsByID($id);
-        header ('Location::news?id='.$id.'#ctable');
+        header ('Location:news?id='.$id.'#ctable');
     }
 // список комментариев
     public static function Comments($newsid)    {
@@ -53,7 +53,16 @@ class Controller {
         $arr = Comments::getCommentsCountByNewsID($newsid);
         ViewComments::CommentsCountWithAncor($arr);
     }
+//--------------------------------------------РЕГИСТРАЦИЯ
+    public static function registerForm()
+    {
+        include_once('view/formRegister.php');
+    }
+    public static function registerUser()
+    {
+        $result = Register::registerUser();
 
+        include_once('view/answerRegister.php');
+    }
     
-
-}// end class
+}//class
