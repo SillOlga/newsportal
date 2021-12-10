@@ -14,13 +14,18 @@ elseif ($path == 'login')
     // Форма входа
     $response = controllerAdmin::loginAction();
 }
-elseif ($path == 'logout')
-{
-    // Выход
+elseif ($path == 'logout'){
+
     $response = controllerAdmin::logoutAction();
 }
 
-else
-{  // Страница не существует
+    //-------------------------------------------listNews
+elseif($path=='newsAdmin'){
+    $response=controllerAdminNews::NewsList();
+}
+
+
+else{
+ 
     $response = controllerAdmin::error404();
 }
