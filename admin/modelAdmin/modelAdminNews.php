@@ -10,6 +10,8 @@ class modelAdminNews{
         $arr = $db->getAll($query);
         return $arr;
     }
+
+
     //----------------------------------Add
     public static function getNewsAdd() {
         $test=false;
@@ -34,3 +36,4 @@ class modelAdminNews{
         }
         return $test;
     }
+}

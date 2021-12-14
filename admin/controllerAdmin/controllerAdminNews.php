@@ -18,4 +18,5 @@ class controllerAdminNews{
     {
         $test = modelAdminNews::getNewsAdd();
         include_once('viewAdmin/newsAddForm.php');
-    } 
+    }
+}
