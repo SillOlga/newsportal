@@ -36,6 +36,16 @@ elseif ($path == 'registerAnswer' )
     $response = Controller::registerUser();
 }
 
+//--------------------------delete news
+elseif ($path =='newsDel' && isset($_GET['id'])){
+    $response=controllerAdminNews::newsDeleteForm($_GET['id']);
+
+}
+elseif ($path == 'newsDelResult' && isset($_GET['id'])) {
+    $response=controllerAdminNews::newsDeleteResult($_GET['id']);
+
+}
+
 //error page
 
     else{
