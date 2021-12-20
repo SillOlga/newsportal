@@ -8,7 +8,7 @@ h2 {
   
 }
 nav {
-  width: 100%;
+  width: 150%;
   margin: auto;
   padding: auto;
 }
@@ -38,7 +38,7 @@ ul {
 }
 a {
   display: block;
-  padding: 10px 15px;
+  padding: 50px 35px;
   text-decoration: none;
   outline: none;
  
@@ -60,7 +60,7 @@ a {
   text-align: center;
 }
 .one ul {
-  background: #AB0000;
+  background: #5552f3;
 }
 .one ul a {
   color: white;
@@ -75,14 +75,14 @@ a {
 }
 .one .submenu {
   display: none;
-  background: #c40202;
+  background: #022fc4;
 }
 .one ul li:hover .submenu {
   display: block;
 }
 .logo{
 	width: auto;
-	color: white;
+	color: rgb(220, 237, 247);
 	font-size: 1.2em;
         margin-left: 15%;
 }
@@ -170,7 +170,7 @@ h1{
 }
 
 .courselink:hover{
-    color: blue;
+    color: rgb(48, 48, 156);
     text-decoration: underline;
 }
 
