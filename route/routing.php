@@ -19,6 +19,11 @@
         $response = Controller::NewsByID($_GET['id']);
     }
 
+    elseif($path == 'search' and isset($_GET['otsi'])) {
+        $response = Controller::SearchNews($_GET['otsi']);
+    }
+
+
     elseif ($path == 'insertcomment' and isset($_GET['comment'], $_GET['id']))
     {
         $response = Controller::InsertComment($_GET['comment'], $_GET['id']);
